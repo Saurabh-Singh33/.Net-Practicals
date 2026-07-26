@@ -1,0 +1,25 @@
+# Build results
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Test Results
+TestResults/
+
+# NuGet packages (only if you keep packages locally)
+packages/
+
+# Logs
+*.log
