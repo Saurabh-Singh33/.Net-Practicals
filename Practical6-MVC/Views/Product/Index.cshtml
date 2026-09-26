@@ -1,0 +1,24 @@
+﻿@model List<Practical6_MVC.Models.Product>
+
+<h2>Product Catalog</h2>
+
+<table border="1">
+    <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.ProductId</td>
+            <td>@product.ProductName</td>
+            <td>@product.Description</td>
+            <td>@product.Price</td>
+            <td>@product.Quantity</td>
+        </tr>
+    }
+</table>
